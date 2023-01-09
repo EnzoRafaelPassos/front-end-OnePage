@@ -158,12 +158,12 @@ body {
     .card {
         margin: 30px;
         height: 400px;
-        width: 200px;
+        width: 300px;
     }
 
     .card-img {
         height: 200px;
-        width: 200px;
+        width: 300px;
     }
 
     .content-card-title {
@@ -175,7 +175,7 @@ body {
     }
 
     .card-content {
-        width: 200px;
+        width: 300px;
         margin: 10px;
     }
 
