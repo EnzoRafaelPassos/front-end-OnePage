@@ -120,7 +120,7 @@ body {
 
 
 
-@media screen and (min-width:390px) and (max-width:719px) {
+@media screen and (min-width:320px) and (max-width:719px) {
 
     .content-purple {
         grid-template-columns: 320px;
@@ -150,14 +150,13 @@ body {
 
 
     .content-cards {
-        margin: 0;
-        grid-template-columns: 310px;
-        grid-template-rows: 450px 450px 450px 450px 450px 550px;
-
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: none;
     }
 
     .card {
-        margin: 11vh;
+        margin: 30px;
         height: 400px;
         width: 200px;
     }
@@ -216,8 +215,12 @@ body {
     }
 
     .content-cards {
-        grid-template-columns: 310px;
-        grid-template-rows: 450px 450px 450px 450px 450px 550px;
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
 
+    .card {
+        margin: 30px;
     }
 }
